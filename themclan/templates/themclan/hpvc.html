@@ -1,0 +1,88 @@
+<!-- Include header code -->
+{% extends "themclan/header.html" %}
+
+{% block content %}
+
+{% load staticfiles %}
+
+    <!-- The Navigation Bar -->
+    {% include "includes/navbar.html" %}
+
+    <!-- The Login Modal -->
+    {% include "includes/login.html" %}
+
+    <!-- The Register Modal -->
+    {% include "includes/register.html" %}
+
+    <!-- HPVC Showcase -->
+    <section id="hpvcshowcase" class="py-5">
+        <div class="primary-overlay text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-center">
+                        <h1 class="display-2 mt-5 pt-5">
+                            HPVC
+                        </h1>
+                        <a href="#hpvc-about" class="btn btn-link btn-lg text-white d-block">
+                            <i class="fas fa-arrow-right"></i> About</a>
+                        <a href="#hpvc-history" class="btn btn-link btn-lg text-white d-block">
+                            <i class="fas fa-arrow-right"></i> History</a>
+                        <a href="#hpvc-competition" class="btn btn-link btn-lg text-white d-block">
+                            <i class="fas fa-arrow-right"></i> The Competition</a>
+                        <a href="#hpvc-experience" class="btn btn-link btn-lg text-white d-block">
+                            <i class="fas fa-arrow-right"></i> The Experience</a>
+                        <a href="#hpvc-point-of-contact" class="btn btn-link btn-lg text-white d-block">
+                            <i class="fas fa-arrow-right"></i> Point of Contact</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="hpvc-slider" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block img-fluid" src="https://source.unsplash.com/wgq4eit198Q/700x400" alt="First Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block img-fluid" src="https://source.unsplash.com/WLUHO9A_xik/700x400" alt="Second Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block img-fluid" src="https://source.unsplash.com/4yta6mU66dE/700x400" alt="Third Slide">
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <div id="hpvc-about">
+        <h4 class="display-4 text-center py-5">About</h4>
+        <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quis laudantium laborum vitae amet velit, necessitatibus officiis. Placeat consequatur dolore qui nihil, inventore id aperiam omnis quasi earum mollitia architecto quis repellendus recusandae impedit ipsum deleniti nostrum maxime ipsa magni reprehenderit illum obcaecati temporibus. Deleniti enim dolorem rem voluptas quas?</p>
+    </div>
+
+    <!-- History -->
+    <div id="hpvc-history">
+        <h4 class="display-4 text-center py-5">History</h4>
+        <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quis laudantium laborum vitae amet velit, necessitatibus officiis. Placeat consequatur dolore qui nihil, inventore id aperiam omnis quasi earum mollitia architecto quis repellendus recusandae impedit ipsum deleniti nostrum maxime ipsa magni reprehenderit illum obcaecati temporibus. Deleniti enim dolorem rem voluptas quas?</p>
+    </div>
+
+    <!-- The Competition -->
+    <div id="hpvc-competition">
+        <h4 class="display-4 text-center py-5">The Competition</h4>
+        <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quis laudantium laborum vitae amet velit, necessitatibus officiis. Placeat consequatur dolore qui nihil, inventore id aperiam omnis quasi earum mollitia architecto quis repellendus recusandae impedit ipsum deleniti nostrum maxime ipsa magni reprehenderit illum obcaecati temporibus. Deleniti enim dolorem rem voluptas quas?</p>
+    </div>
+
+    <!-- The Experience -->
+    <div id="hpvc-experience">
+        <h4 class="display-4 text-center py-5">The Experience</h4>
+        <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quis laudantium laborum vitae amet velit, necessitatibus officiis. Placeat consequatur dolore qui nihil, inventore id aperiam omnis quasi earum mollitia architecto quis repellendus recusandae impedit ipsum deleniti nostrum maxime ipsa magni reprehenderit illum obcaecati temporibus. Deleniti enim dolorem rem voluptas quas?</p>
+    </div>
+
+    <!-- Point of Contact -->
+    <div id="hpvc-point-of-contact">
+        <h4 class="display-4 text-center py-5">Point of Contact</h4>
+        <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quis laudantium laborum vitae amet velit, necessitatibus officiis. Placeat consequatur dolore qui nihil, inventore id aperiam omnis quasi earum mollitia architecto quis repellendus recusandae impedit ipsum deleniti nostrum maxime ipsa magni reprehenderit illum obcaecati temporibus. Deleniti enim dolorem rem voluptas quas?</p>
+    </div>
+
+{% endblock %}

@@ -9,4 +9,10 @@ urlpatterns = [
     url(r'^about$', views.about, name='about'),
     url(r'^magazine$', views.magazine, name='magazine'),
     url(r'^pioneers$', views.pioneers, name='pioneer'),
+    
+    url(r'^hpvc$', views.hpvc, name='hpvc'),
+    url(r'^supra$', views.supra, name='supra'),
+    url(r'^aero$', views.aero, name='aero'),
+    url(r'^sdc$', views.sdc, name='sdc'),
+    url(r'^baja$', views.baja, name='baja'),
 ]

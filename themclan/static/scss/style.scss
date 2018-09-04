@@ -2,6 +2,8 @@
 $primary: #E6783E;
 // Red Blue Green values of selected color
 $primary-overlay: rgba(230,120,62,0.8);
+// Dark Overlay
+$dark-overlay: rgba(0, 0, 0, 0.7);
 
 body {
     margin-top: 105px;
@@ -20,8 +22,8 @@ body {
 
 #homepageimage {
     position: relative;
-    background: url(../tempimg/homeimage.jpg);
-    min-height: 600px;
+    background: url(../tempimg/gears.jpg);
+    min-height: 700px;
 
     .primary-overlay {
         background: $primary-overlay;
@@ -41,6 +43,31 @@ body {
     .carousel-control-next-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23E6783E' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
     }
+}
+
+#hpvcshowcase {
+    position: relative;
+    background: url(../tempimg/gears.jpg);
+    min-height: 600px;
+
+    .dark-overlay {
+        background: $dark-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%
+    }
+
+    .primary-overlay {
+        background: $primary-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
 }
 
 @media(max-width: 768px) {
