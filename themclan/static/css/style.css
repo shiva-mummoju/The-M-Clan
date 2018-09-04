@@ -1,6 +1,25 @@
 body {
   margin-top: 105px; }
 
+.my-carousel{
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.Absolute-Center {
+   margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.middle{
+    display: table-cell;
+  vertical-align: middle;
+}
+
+
 .navbar {
   box-shadow: 2px 2px 2px #E6783E;
   opacity: 0.9;
@@ -20,6 +39,10 @@ body {
     left: 0;
     width: 100%;
     height: 100%; }
+
+
+
+
 
 #slidingfaqs .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23E6783E' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important; }
