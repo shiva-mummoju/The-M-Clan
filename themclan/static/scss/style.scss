@@ -9,6 +9,27 @@ body {
     margin-top: 105px;
 }
 
+
+
+.my-carousel{
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.Absolute-Center {
+   margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.middle{
+    display: table-cell;
+  vertical-align: middle;
+}
+
+
 .navbar {
     box-shadow: 2px 2px 2px $primary;
     opacity: 0.9;
